@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,700");
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: rgb(120,1,100);
+    background: linear-gradient(135deg, #A2ABB5, #4b494d);
+    /* background: linear-gradient(135deg, rgba(120,1,100,1) 0%, rgba(102,20,145,1) 44%, rgba(8,54,87,1) 100%); */
+    font-family: 'Comfortaa', normal;
+    font-size: 22px;
+  }
+  .container-div {
+    width: 100vw;
+    height: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+.nav-menu {
+    height: 5%;
+    background-color:#A2ABB5;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-item {
+    border: 10px;
+    border-color: #020202;
+    display: block;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* text-shadow: 0 0 10px #d5a1e2e1 , 0 0 15px #c276d4c2, 0 0 20px  #6d1f9ba2, 0 0 40px #2d035c46; */
+}
+
+.title-container {
+    display: grid;
+    justify-content: center;
+    color: #D8F1A0;
+    text-align: center;
+}
+
+.main-body {
+    display: inline-flex;
+    height: 75vh;
+}
+
+.summary-container {
+    width: 40vw;
+    margin-top: 35px;
+}
+
+.cards-container {
+    width: 60vw;
+}
+
+.headshot {
+    width: 80%;
+    border-radius: 50%;
+    margin-left: 15%;
+    
+}
+
+.headshot-frame {
+    width: 85%;
+    border-radius: 40%;
+}
+
+.summary-text-box {
+    width: 90%;
+    background-color: #ae8ca39a;
+    height: 60%;
+    margin-left: 10%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.summary-text-container {
+    padding: 5px;
+}
+
+h4 {
+    margin: 0px;
+    margin-bottom: 5px;
+    color: ivory;
+}
+
+.summary-text {
+    font-size: 18px;
+}
+
+.tabs-container {
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.26);
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.info-container {
+    height: 50%;
+    display: inline-flex;
+    width: 100%;
+}
+
+.info-title {
+    margin-top: 2px;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    color: ivory;
+}
+
+.info-text {
+    font-size: 16px;
+    margin: 5px;
+}
+
+.core-values-list {
+    text-align: center;
+    display: grid;
+}
+
+.interests-container {
+    height: 30%;
+    background-image: url("f1-background1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    background-blend-mode: soft-light;
+    opacity: 0.75;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.tab {
+    height: 90%;
+    width: 23%;
+    background-color: #A2ABB5;
+    text-align: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    border-radius: 20px;
+}
+
+.portfolio-tab {
+    background-image: url("github.jpg");
+}
+
+.service-tab {
+    background-image: url("community.jpg");
+}
+
+.qualifications-tab {
+    background-image: url("qualifications.jpg");
+}
+
+.aigen-tab {
+    background-image: url("aigen.jpg");
+}
+
+.tab-link {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 85%;
+}
+
+.mission-and-background {
+    width: 70%;
+    display: grid;
+}
+
+.mission, .background {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #AE8CA3;
+    border-radius: 10px;
+}
+
+.core-values {
+    width: 30%;
+    background-color: #f7d18a9c;
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: 0px;
+}
+
+.interest-tab {
+    width: 47%;
+    height: 90%;
+    background-color: #646464cc;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PORTFOLIO */
+.projects {
+    width: 58vw;
+    background-color: #ffefd028;
+    margin: 10px;
+    border-radius: 10px;
+    height: 83vh;
+}
+
+.future-projects {
+    width: 38vw;
+    background-color: #ae8ca359;;
+    margin: 10px;
+    border-radius: 10px;
+    height: 83vh;
+}
+
+.projects-title {
+    text-align: center;
+    font-size: 32px;
+    color: ivory;
+}
+
+.projects-box {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.projects-column {
+    height: 75vh;
+    width: 50%;
+    display: inline;
+}
+
+.future-projects-column {
+    height: 75vh;
+    width: 100%;
+    display: inline;
+}
+
+.project {
+    height: 23%;
+    background-color: ivory;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-flex;
+}
+
+.even {
+    background-color: rgb(230, 230, 214);    
+}
+
+.project-leftside {
+    width: 30%;
+    margin: 10px;
+    display: grid;
+    align-items: center;
+}
+
+.project-thumbnail {
+    /* max-height: 5%; */
+    border-radius: 15px;
+    max-width: 100%;
+    
+}
+
+.project-links {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.project-link-img {
+    width: 20px;
+    height: 20px;
+}
+
+.project-textbox {
+    width: 70%;
+    overflow-y: scroll;
+    height: 90%;
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.project-text {
+    font-size: 14px;
+}
+
+/* QUALIFICATIONS */
+.resume-container {
+    width: 48vw;
+    height: 83vh;
+    background-color: blue;
+}
+
+.other-container {
+    width: 50vw;
+    height: 83vh;
+    margin-left: 1vw;
+    display: grid;
+    justify-content: space-evenly;
+    margin-top: 1vh;
+}
+
+.skills-container {
+    background-color: #f5fde4d5;
+    border-radius: 10px;
+    height: 40vh;
+    width: 49vw;
+}
+
+.interests-container-q {
+    background-color: #f5fde4d5;
+    border-radius: 10px;
+    height: 40vh;
+    width: 49vw;
+}
+
+.skills-top {
+    display: grid;
+    justify-items: center;
+    width: 49vw;
+    margin-top: 5px;
+}
+
+.skills-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.skills-tabs {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.skill-tab {
+    background-color: red;
+    font-size: 10px;
+    color: wheat;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 2px;
+}
+
+.cs-skills {
+    display: inline-flex;
+    height: 100%;
+    width: 49vw;
+}
+
+.cs-skill-container {
+    height: 30vh;
+    margin: 5px;
+    width: 31%;
+    background-color: #c9c9c988;
+    border-radius: 15px;
+}
+
+.cs-skill-title {
+    margin-top: 2px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.cs-skill-textbox {
+    overflow-y: scroll;
+    height: 80%;
+    font-size: 16px;
+}
+
+.service-row {
+    display: inline-flex;
+    width: 100%;
+    height: 40vh;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.stick-to-left {
+    width: 49vw;
+    margin-left: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #fae4bc;
+    display: inline-flex;
+    align-items: center;
+}
+
+.right {
+    width: 47vw;
+    border-radius: 20px;
+    background-color: #AE8CA3;
+    margin-left: 15px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.left {
+    width: 48vw;
+    border-radius: 20px;
+    background-color: #AE8CA3;
+    margin-left: 13px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.stick-to-right {
+    width: 49vw;
+    margin-right: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #fae4bc;
+    margin-left: 2%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.service-image {
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.service-image-right{
+    width: 30%;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.service-text-container {
+    height: 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.service-text-container-left {
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.service-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.service-text {
+    overflow-y: scroll;
+    height: 80%;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
