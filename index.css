@@ -53,7 +53,7 @@ h1 {
 
 .summary-container {
     width: 40vw;
-    margin-top: 35px;
+    justify-content: center;
 }
 
 .cards-container {
@@ -61,10 +61,15 @@ h1 {
 }
 
 .headshot {
-    width: 80%;
+    width: 20vw;
     border-radius: 50%;
-    margin-left: 15%;
-    
+}
+
+.headshot-div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
 }
 
 .headshot-frame {
@@ -75,8 +80,7 @@ h1 {
 .summary-text-box {
     width: 90%;
     background-color: #ae8ca39a;
-    height: 60%;
-    margin-left: 10%;
+    height: auto;
     border-radius: 10px;
     text-align: center;
 }
