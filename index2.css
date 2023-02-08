@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,700");
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: rgb(120,1,100);
+    background: linear-gradient(135deg,  #420a42, #000000, #2b002b);
+    /* background: linear-gradient(135deg, rgba(120,1,100,1) 0%, rgba(102,20,145,1) 44%, rgba(8,54,87,1) 100%); */
+    font-family: 'OCR A Std', monospace;
+    font-size: 22px;
+  }
+  .container-div {
+    width: 100vw;
+    height: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+.nav-menu {
+    height: 5%;
+    background-color:#A2ABB5;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-item {
+    border: 10px;
+    border-color: #020202;
+    display: block;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* text-shadow: 0 0 10px #d5a1e2e1 , 0 0 15px #c276d4c2, 0 0 20px  #6d1f9ba2, 0 0 40px #2d035c46; */
+}
+
+.title-container {
+    display: grid;
+    justify-content: center;
+    color: greenyellow;
+    text-align: center;
+}
+
+.main-body {
+    display: block;
+    height: 75vh;
+}
+
+.summary-container {
+    display: inline-flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.cards-container {
+    width: 100vw;
+    padding-top: 10px;
+}
+
+.headshot {
+    height: 12vh;
+    border-radius: 10%;
+    border: solid 5px greenyellow;
+    padding: 5px;
+}
+
+.headshot-div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.headshot-frame {
+    width: 85%;
+    border-radius: 10%;
+}
+
+.summary-text-box {
+    width: 90%;
+    background-color: #0000009a;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    color: greenyellow;
+    border: solid white 2px;
+}
+
+.summary-text-container {
+    padding: 5px;
+}
+
+h4 {
+    margin: 0px;
+    margin-bottom: 5px;
+    color: ivory;
+}
+
+.summary-text {
+    font-size: 18px;
+}
+
+.tabs-container {
+    height: 20%;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.info-container {
+    height: 50%;
+    display: inline-flex;
+    width: 100%;
+}
+
+.info-title {
+    padding-top: 2px;
+    font-size: 24px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    color: ivory;
+    background: rgb(51,133,218);
+    background: linear-gradient(180deg, rgba(51,133,218,1) 0%, rgba(17,67,102,1) 100%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.info-text {
+    font-size: 80%;
+    margin: 5px;
+}
+
+.core-values-list {
+    text-align: center;
+    display: grid;
+    border-left: solid 3px gray;
+    border-right: solid 3px gray;
+    border-bottom: solid 3px gray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.interests-container {
+    background-image: url("./images/arcade-carpet.png");
+    background-size: cover;
+    border-radius: 10px;
+    /* background-blend-mode: soft-light; */
+    opacity: 0.75;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.tab {
+    height: 90%;
+    width: 23%;
+    text-align: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: #fff2a8;
+    border-radius: 5px;
+    border-top: solid 3px #88815d;
+    border-right: solid 5px #88815d;
+}
+
+
+
+.tab-link {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 85%;
+}
+
+.mission-and-background {
+    width: 70%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.mission, .background {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #0065a8;
+    border-radius: 10px;
+    width: 45%;
+    color: white;
+}
+
+.core-values {
+    width: 25%;
+    background-color: #fffdfa;
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: 0px;
+    height: 30%;
+}
+
+.interest-tab {
+    width: 47%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 5px;
+    background-color: #e6e6e6ea;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PORTFOLIO */
+.projects {
+    background-color: #ffefd028;
+    margin: 10px;
+    border-radius: 10px;
+    height: 55vh;
+}
+
+.future-projects {
+    margin: 10px;
+    border-radius: 10px;
+    height: 30vh;
+}
+
+.projects-title {
+    text-align: left;
+    font-size: 28spx;
+    color: ivory;
+    background: rgb(51,133,218);
+    background: linear-gradient(180deg, rgba(51,133,218,1) 0%, rgba(17,67,102,1) 100%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 4vh;
+    padding-left: 5px;
+}
+
+.projects-box {
+    display: grid;
+    justify-content: space-evenly;
+    height: 52vh;
+    border-left: solid 3px gray;
+    border-right: solid 3px gray;
+    border-bottom: solid 3px gray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.future-projects .projects-box {
+    height: 28vh;
+    display: inline-flex;
+    background-color: white;
+}
+
+.projects-column {
+    display: inline-flex;
+    justify-content: space-around;
+    height: 26vh;
+    background-color: white;
+}
+
+.future-projects-column {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.project {
+    width: 23%;
+    background-color: #fff2a8;
+    border-radius: 5px;
+    border-top: solid 5px #88815d;
+    border-right: solid 8px #88815d;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-flex;
+}
+
+.project-leftside {
+    width: 30%;
+    margin: 10px;
+    display: grid;
+    align-items: center;
+    height: 80%;
+}
+
+.project-thumbnail {
+    height: 100px;
+    border-radius: 15px;
+    max-width: 100%;
+    object-fit: contain;
+    
+}
+
+.project-links {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.project-link-img {
+    width: 20px;
+    height: 20px;
+}
+
+.project-textbox {
+    width: 70%;
+    overflow-y: scroll;
+    height: 90%;
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.project-text {
+    font-size: 14px;
+}
