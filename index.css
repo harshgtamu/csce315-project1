@@ -134,13 +134,13 @@ h4 {
 }
 
 .info-text {
-    font-size: 16px;
+    font-size: 70%;
     margin: 5px;
 }
 
 .core-values-list {
     text-align: center;
-    display: grid;
+    display: block;
 }
 
 .interests-container {
@@ -199,6 +199,7 @@ h4 {
     margin-bottom: 2%;
     background-color: #AE8CA3;
     border-radius: 10px;
+    overflow-y: scroll;
 }
 
 .core-values {
