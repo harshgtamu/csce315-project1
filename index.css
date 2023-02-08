@@ -32,6 +32,13 @@ body, html {
     display: block;
 }
 
+.toggle-button {
+    background-color: #020202;
+    color: greenyellow;
+    border-radius: 4px;
+    font-family: 'OCR A Std', monospace;
+}
+
 h1 {
     font-size: 60px;
     margin-bottom: 0px;
@@ -308,6 +315,12 @@ h4 {
 }
 
 /* QUALIFICATIONS */
+
+.quali-main-body {
+    display: inline-flex;
+    height: 75vh;
+}
+
 .resume-container {
     width: 48vw;
     height: 83vh;
@@ -478,5 +491,14 @@ h4 {
     font-size: 20px;
     margin-top: 10px;
 }
+
+.center {
+    text-align: center;
+    color: black;
+    border: 5px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right, green, yellow);
+    padding: 20px;
+  }
 
 

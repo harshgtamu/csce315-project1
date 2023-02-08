@@ -20,7 +20,9 @@ body, html {
 
 .nav-menu {
     height: 5%;
-    background-color:#A2ABB5;
+    color: ivory;
+    background: rgb(51,133,218);
+    background: linear-gradient(180deg, rgba(51,133,218,1) 0%, rgba(17,67,102,1) 100%);
     display: inline-flex;
     width: 100%;
     justify-content: space-between;
@@ -30,6 +32,14 @@ body, html {
     border: 10px;
     border-color: #020202;
     display: block;
+    color: ivory;
+}
+
+.toggle-button {
+    background-color: #bff8d2;
+    color: rgb(8, 8, 8);
+    border-radius: 8px;
+    font-family: 'Comfortaa', normal;
 }
 
 h1 {
@@ -427,3 +437,108 @@ h4 {
     font-size: 20px;
     margin-top: 10px;
 }
+
+/* QUALIFICATIONS */
+.quali-main-body {
+    display: inline-flex;
+    height: 75vh;
+}
+
+.resume-container {
+    width: 48vw;
+    height: 83vh;
+    background-color: blue;
+}
+
+.other-container {
+    width: 50vw;
+    height: 83vh;
+    margin-left: 1vw;
+    display: grid;
+    justify-content: space-evenly;
+    margin-top: 1vh;
+}
+
+.skills-container {
+    background-color: #ffffffe3;
+    border-radius: 10px;
+    height: 40vh;
+    width: 49vw;
+}
+
+.interests-container-q {
+    background-color: #ffffffe3;
+    border-radius: 10px;
+    height: 40vh;
+    width: 49vw;
+}
+
+.skills-top {
+    display: grid;
+    justify-items: center;
+    width: 49vw;
+}
+
+.skills-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: ivory;
+    background: rgb(51,133,218);
+    background: linear-gradient(180deg, rgba(51,133,218,1) 0%, rgba(17,67,102,1) 100%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+.skills-tabs {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.skill-tab {
+    background-color: rgb(0, 0, 0);
+    font-size: 10px;
+    color: white;
+    display: inline-block;
+    padding: 2px;
+}
+
+.cs-skills {
+    display: inline-flex;
+    height: 100%;
+    width: 49vw;
+}
+
+.cs-skill-container {
+    height: 30vh;
+    margin: 5px;
+    width: 31%;
+    background-color: #000000;
+    color: greenyellow;
+    border-radius: 15px;
+}
+
+.cs-skill-title {
+    margin-top: 2px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.cs-skill-textbox {
+    overflow-y: scroll;
+    height: 80%;
+    font-size: 16px;
+}
+
+.center {
+    text-align: center;
+    color: white;
+    border: 5px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right, #051937, #004d7a);
+    padding: 20px;
+  }

@@ -2,16 +2,18 @@
 <html>
   <head>
     <title>Hello, World, from ChatGPT!</title>
-    <link rel="stylesheet" href="index.css">
+    <link id="stylesheet-link" rel="stylesheet" href="index.css">
     <style>
       .center {
         text-align: center;
       }
     </style>
   </head>
-  <body>
+  <body onload="onLoad()">
+    <script src="index.js"></script>
     <div class="center">
         <div class="nav-menu">
+            <button onclick="onStyleChange()">O</button>
             <a href="index.html" class="nav-item">HOME</a>
             <a href="portfolio.html"  class="nav-item">PORTFOLIO</a>
             <a href="service.html"  class="nav-item">SERVICE</a>
@@ -21,6 +23,10 @@
       <h1>Hello, World, from ChatGPT!</h1>
       <p>generate a basic html page for me with a title in the center that says "Hello, World, from ChatGPT!" and has this prompt in the center of the page</p>
       <p>link a stylesheet to that with the href "index.css"</p>
+      <p>give me the css to make text of class "center" white</p>
+      <p>add a script "index.js", add an onload attribute for body with function "onLoad()"</p>
+      <p>give that center div a 5px border with rounded edges and a gradient color </p>
+      <p>give that gradient a green-yellow shade </p>
       <p>Add this navbar code to the html <...></p>
     </div>
   </body>
